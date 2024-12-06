@@ -13,3 +13,21 @@ Install the library via npm:
 
 ```bash
 npm install is-user-online
+```
+
+```bash
+import React from 'react';
+import { useIsUserOnline, useClientInfo } from 'is-user-online';
+
+const UserStatusDemo = () => {
+  const isOnline = useIsUserOnline();
+  const clientInfo = useClientInfo();
+
+  return (
+    <div>
+      <p>Connection Status: {isOnline ? 'Online' : 'Offline'}</p>
+      <p>IP Address: {clientInfo?.ipAddress}</p>
+      <p>User Agent: {clientInfo?.userAgent}</p>
+    </div>
+  );
+};
