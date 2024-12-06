@@ -1,0 +1,30 @@
+{
+  "name": "is-user-online",
+  "version": "1.0.0",
+  "description": "React hooks to check user online status and fetch client details.",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/is-user-online.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "online",
+    "user-status",
+    "ip",
+    "client-details"
+  ],
+  "author": "Saphal Ghorasaini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/is-user-online/issues"
+  },
+  "homepage": "https://github.com/yourusername/is-user-online#readme",
+  "dependencies": {
+    "eslint": "^9.16.0",
+    "jest": "^29.7.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
